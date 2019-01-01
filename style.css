@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: normal;
+}
+.background{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/bg.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-y: auto;
+
+}
+.nav{
+    width: 250px;
+    height: auto;
+    
+    position: absolute;
+    top: 20%;
+    left: 0;
+
+
+}
+.nav a{
+    text-decoration: none;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    
+    height: 90px;
+    margin: 5px 0;
+    float: left;
+    display: inline-block;
+    background-color: black;
+    color: whitesmoke;
+    line-height: 90px;
+    text-align: center;
+}
+
+a.active, .nav a:hover{
+    background-color: white;
+    color: black;
+    width: 100%;
+
+    }
+.a{
+    width: 95%;
+
+}
+.b{
+    width: 82%;
+}
+.c{
+    width: 90%;
+}
+.d{
+    width: 75%;
+}
